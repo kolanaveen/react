@@ -44,12 +44,12 @@ return (
                             Profile
                         </p>
                         <p onClick={()=> navigate('/sign-in')}
-                            className={`inline-flex items-center px-1 pt-1 text-sm font-medium
+                            className={`cursor-pointer inline-flex items-center px-1 pt-1 text-sm font-medium
                             ${pathMatchRoute('/sign-in') && "border-indigo-500 text-gray-900 border-b-2"}`}>
                             SignIn
                         </p>
                         <p onClick={()=> navigate('/sign-up')}
-                            className={`inline-flex items-center px-1 pt-1 text-sm font-medium
+                            className={`cursor-pointer inline-flex items-center px-1 pt-1 text-sm font-medium
                             ${pathMatchRoute('/sign-up') && "border-indigo-500 text-gray-900 border-b-2"}`}>
                             Signup
                         </p>
